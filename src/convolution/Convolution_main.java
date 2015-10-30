@@ -5,7 +5,7 @@ public class Convolution_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		double[] alpha = {0.4, 0.2, 0.4}, mu = {1,2,2};
+		double[] alpha = {1, 0.5, 1}, mu = {1,2,2};
 		int N = 5, K = 3;
 		
 		Convolution_lib clib = new Convolution_lib(alpha, mu);
